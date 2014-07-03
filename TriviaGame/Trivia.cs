@@ -10,7 +10,8 @@ namespace TriviaGame
     {
         //define the properties for the game
         public string Question  {get; set;}
-        public string Answer { get; set; } 
+        public string Answer { get; set; }
+        
 
         //TODO: Fill out the Trivia Object
         public Trivia(string content)
@@ -20,6 +21,7 @@ namespace TriviaGame
            this.Question = temp[0];
            this.Answer = temp[1];
         }
+ 
 
         //default constructor
         public Trivia()
